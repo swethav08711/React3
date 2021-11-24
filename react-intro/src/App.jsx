@@ -1,8 +1,10 @@
 // import React, { useEffect } from "react"
 // import axios from "axios"
 
+import UseEffect from "./Component/useEffect/UseEffect"
+
 // import Forms from "./Component/Form/Forms"
-import Todos from "./Component/todo/Todos"
+// import Todos from "./Component/todo/Todos"
 
 // import StateManagement from "./Component/class2/StateManagement"
 // import Todo from "./Component/class2/Todo"
@@ -59,8 +61,9 @@ function App() {
       {/* <StateManagement /> */}
       {/* <Todo /> */}
       {/* <Temp /> */}
-      <Todos />
+      {/* <Todos /> */}
       {/* <Forms /> */}
+      <UseEffect />
     </div>
   )
 }
