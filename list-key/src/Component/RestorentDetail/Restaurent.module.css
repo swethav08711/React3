@@ -1,0 +1,91 @@
+/* .container {
+  width: 40.3%;
+
+  margin: 20px auto;
+} */
+/* .first_container1 {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}*/
+.first_container {
+  display: flex;
+  padding: 20px;
+  height: 250px;
+}
+.first_container_image {
+  width: 180px;
+  height: 170px;
+  margin-right: 20px;
+  padding-top: 17px;
+}
+.header_h1 {
+  font-size: 25px;
+  color: brown;
+
+  font-weight: 700;
+}
+.header_h3 {
+  font-size: 17px;
+  padding: 5px;
+  margin: 0px;
+}
+.header_h3_another {
+  font-size: 17px;
+  margin-left: 30px;
+  margin: 0px;
+  padding: 5px;
+}
+.second_container {
+  display: flex;
+}
+.header_h4 {
+  font-size: 27px;
+  padding: 2px;
+  background-color: green;
+  width: 60px;
+  color: white;
+  text-align: center;
+}
+.first_container_Details {
+  width: 200px;
+}
+.thired_container {
+  margin-left: auto;
+}
+.button_tag {
+  width: 209px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: green;
+  border: none;
+  margin-left: auto;
+}
+.first_container1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button_tag_keft {
+  border-top: 1px solid grey;
+}
+.button_container {
+  margin-top: 40px;
+}
+.button_container > button {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  border: none;
+  background-color: aqua;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.main_cont {
+  width: 80%;
+  margin: auto;
+  display: grid;
+
+  grid-gap: 15px;
+  grid-template-columns: 45% 45%;
+}

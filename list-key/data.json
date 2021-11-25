@@ -1,0 +1,352 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "imags": "https://b.zmtcdn.com/data/pictures/chains/0/50550/c1b00a1bf6875e961aae360100f8ef99_o2_featured_v2.jpg?output-format=webp",
+      "restaurant": "Smoor",
+      "catogories": "Italian,Cafe,Pizza,Fast",
+      "votes": 663,
+      "reviews": 268,
+      "cost": 848,
+      "min": 363,
+      "time": 44,
+      "star": 3.4,
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+    {
+      "id": 2,
+      "restaurant": "A2B",
+      "imags": "https://b.zmtcdn.com/data/pictures/2/57282/04d63f848b20bcc3e453b8f319f5c5f2_o2_featured_v2.jpg?output-format=webp",
+      "catogories": "South Indain,North Indian",
+      "votes": 776,
+      "reviews": 586,
+      "cost": 550,
+      "min": 179,
+      "time": 39,
+      "star": 3.5,
+
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+    {
+      "id": 3,
+      "imags": "https://b.zmtcdn.com/data/pictures/chains/2/52072/d735aca1aaa4a7ce3034358eb8550d7b_o2_featured_v2.jpeg?output-format=webp",
+      "restaurant": "Aligarh House",
+      "catogories": "Biryani,North Indain",
+      "votes": 523,
+      "reviews": 268,
+      "cost": 514,
+      "min": 79,
+      "time": 28,
+      "star": 3.6,
+
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+    {
+      "id": 4,
+      "imags": "https://b.zmtcdn.com/data/pictures/0/18422900/b0006ec626e7c02c00539232b0a101af_o2_featured_v2.jpg?output-format=webp",
+      "restaurant": "Vijayalakshmi Veg",
+      "catogories": "South Indian,Chinese",
+      "votes": 963,
+      "reviews": 413,
+      "cost": 917,
+      "min": 266,
+      "time": 37,
+      "star": 3.7,
+
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+    {
+      "id": 5,
+      "imags": "https://b.zmtcdn.com/data/pictures/9/19414229/f52806969e547024643b2e66c0434f4f_o2_featured_v2.jpg?output-format=webp",
+      "restaurant": "Kannur Food Point",
+      "catogories": "Kerala,chinese,south Indain",
+      "votes": 553,
+      "reviews": 478,
+      "cost": 690,
+      "min": 274,
+      "time": 26,
+      "star": 3.8,
+
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+    {
+      "id": 6,
+      "imags": "https://b.zmtcdn.com/data/pictures/6/18680186/e99eda216844637d9115483d78d1e998_o2_featured_v2.jpg",
+      "restaurant": "Kanti Sweets",
+      "catogories": "Mithai,Desserts,Street Food",
+      "votes": 738,
+      "reviews": 459,
+      "cost": 517,
+      "min": 180,
+      "time": 54,
+      "star": 4.1,
+
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+    {
+      "id": 7,
+      "imags": "https://b.zmtcdn.com/data/pictures/chains/0/18683480/c9759695c5e14e06927dc556c5f5674f_o2_featured_v2.jpg",
+      "restaurant": "Canteen center -Burgers",
+      "catogories": "Burger,momos,Italian",
+      "votes": 402,
+      "reviews": 431,
+      "cost": 889,
+      "min": 20,
+      "time": 35,
+      "star": 4.2,
+
+      "payment": {
+        "card": false,
+        "cash": true
+      }
+    },
+    {
+      "id": 8,
+      "imags": "https://b.zmtcdn.com/data/pictures/chains/1/60551/cec7f54fde5067ef575d6ff3735f31f7_o2_featured_v2.jpg",
+      "restaurant": "Adiaga's",
+      "catogories": "South Inidan,North Indian",
+      "votes": 532,
+      "reviews": 650,
+      "cost": 863,
+      "min": 357,
+      "time": 44,
+      "star": 4.3,
+
+      "payment": {
+        "card": false,
+        "cash": true
+      }
+    },
+    {
+      "id": 9,
+      "imags": "https://b.zmtcdn.com/data/pictures/chains/9/59179/a27b0a7128ad0035df8c14fabf52cdef_o2_featured_v2.jpg",
+      "restaurant": "A2B",
+      "catogories": "Burger,momos,Italian",
+      "votes": 777,
+      "reviews": 217,
+      "cost": 602,
+      "min": 18,
+      "time": 42,
+      "star": 4.5,
+
+      "payment": {
+        "card": true,
+        "cash": true
+      }
+    },
+    {
+      "id": 10,
+      "imags": "https://b.zmtcdn.com/data/pictures/6/54086/c6b4d4e97648780d1b2cd965347106be_o2_featured_v2.jpg",
+      "restaurant": "Canteen center -Burgers",
+      "catogories": "South Inidan,North Indian",
+      "votes": 740,
+      "reviews": 545,
+      "cost": 861,
+      "min": 390,
+      "time": 23,
+      "star": 4.9,
+
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+    {
+      "id": 11,
+      "imags": "https://b.zmtcdn.com/data/pictures/chains/1/61381/28812a25e2e90af4229b88b484aff89b_o2_featured_v2.jpg",
+      "restaurant": "Canteen center -Burgers",
+      "catogories": "Italian,Cafe,Pizza,Fast",
+      "votes": 686,
+      "reviews": 883,
+      "cost": 714,
+      "min": 384,
+      "time": 55,
+      "star": 4.9,
+
+      "payment": {
+        "card": false,
+        "cash": true
+      }
+    },
+
+    {
+      "id": 12,
+      "imags": "https://b.zmtcdn.com/data/pictures/6/54086/c6b4d4e97648780d1b2cd965347106be_o2_featured_v2.jpg",
+      "restaurant": "Vijayalakshmi Veg",
+      "catogories": "Kerala,chinese,south Indain",
+      "votes": 484,
+      "reviews": 587,
+      "cost": 543,
+      "min": 28,
+      "time": 26,
+      "star": 2.2,
+
+      "payment": {
+        "card": true,
+        "cash": true
+      }
+    },
+
+    {
+      "id": 13,
+      "imags": "https://b.zmtcdn.com/data/pictures/2/57282/04d63f848b20bcc3e453b8f319f5c5f2_o2_featured_v2.jpg?output-format=webp",
+      "restaurant": "Kanti Sweets",
+      "catogories": "Mithai,Desserts,Street Food",
+      "votes": 973,
+      "reviews": 504,
+      "cost": 710,
+      "min": 340,
+      "time": 52,
+      "star": 2.1,
+
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+
+    {
+      "id": 14,
+      "imags": "https://b.zmtcdn.com/data/pictures/chains/7/52277/c9bcaec7b95c4f7f59655d53ee24e7a2_o2_featured_v2.jpg",
+      "restaurant": "Aligarh House",
+      "catogories": "South Indian,Chinese",
+      "votes": 512,
+      "reviews": 215,
+      "cost": 561,
+      "min": 246,
+      "time": 46,
+      "star": 2.4,
+
+      "payment": {
+        "card": true,
+        "cash": true
+      }
+    },
+
+    {
+      "id": 15,
+      "imags": "https://b.zmtcdn.com/data/pictures/chains/9/19085099/dd0c072f525f3bd7055d2e90723d3ffc_o2_featured_v2.jpg",
+      "restaurant": "Kannur Food Point",
+      "catogories": "Burger,momos,Italian",
+      "votes": 531,
+      "reviews": 860,
+      "cost": 921,
+      "min": 116,
+      "time": 45,
+      "star": 2.6,
+
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+
+    {
+      "id": 16,
+      "imags": "https://b.zmtcdn.com/data/pictures/1/19160541/5b0e13cbb328e81b0241e7979b1536bb_o2_featured_v2.jpg",
+      "restaurant": "A2B",
+      "catogories": "Kerala,chinese,south Indain",
+      "votes": 458,
+      "reviews": 471,
+      "cost": 513,
+      "min": 102,
+      "time": 30,
+      "star": 4,
+
+      "payment": {
+        "card": false,
+        "cash": true
+      }
+    },
+
+    {
+      "id": 17,
+      "imags": "https://b.zmtcdn.com/data/pictures/0/18538010/4c1ec0bba9941d84a81e18294afc40c6_o2_featured_v2.jpg",
+      "restaurant": "Aligarh House",
+      "catogories": "Italian,Cafe,Pizza,Fast",
+      "votes": 582,
+      "reviews": 495,
+      "cost": 782,
+      "min": 123,
+      "time": 34,
+      "star": 1.7,
+
+      "payment": {
+        "card": true,
+        "cash": true
+      }
+    },
+
+    {
+      "id": 18,
+      "imags": "https://b.zmtcdn.com/data/pictures/chains/3/56603/0cc2ec0588c494c9c0fbeed969cf18a5_o2_featured_v2.jpg",
+      "restaurant": "Canteen center -Burgers",
+      "catogories": "Biryani,North Indain",
+      "votes": 782,
+      "reviews": 553,
+      "cost": 676,
+      "min": 16,
+      "time": 22,
+      "star": 1.9,
+
+      "payment": {
+        "card": true,
+        "cash": false
+      }
+    },
+
+    {
+      "id": 19,
+      "imags": "https://b.zmtcdn.com/data/pictures/2/19603432/d07964e798d80f929b241e39bed46314_o2_featured_v2.jpg",
+      "restaurant": "Kanti Sweets",
+      "catogories": "Kerala,chinese,south Indain",
+      "votes": 516,
+      "reviews": 426,
+      "cost": 908,
+      "min": 77,
+      "time": 52,
+      "star": 1.8,
+
+      "payment": {
+        "card": false,
+        "cash": true
+      }
+    },
+
+    {
+      "id": 20,
+      "imags": "https://b.zmtcdn.com/data/pictures/0/18728120/f377b146ebd3ba1d90edb39dc383f9e4_o2_featured_v2.jpg",
+      "restaurant": "Canteen center -Burgers",
+      "catogories": "Kerala,chinese,south Indain",
+      "votes": 939,
+      "reviews": 325,
+      "cost": 765,
+      "min": 266,
+      "time": 39,
+      "star": 4.3,
+
+      "payment": {
+        "card": true,
+        "cash": true
+      }
+    }
+  ]
+}
