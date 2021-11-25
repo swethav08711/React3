@@ -12,10 +12,10 @@ const RestorentChild = props => {
     min,
     time,
     star,
-    payment: { cash, card },
+    payment,
     restaurant,
   } = props.data
-
+  console.log(props.data.payment.card)
   return (
     <div className={styles.first_container1}>
       <div className={styles.first_container}>
@@ -30,9 +30,9 @@ const RestorentChild = props => {
             <h3 className={styles.header_h3}>Min ₹{min}</h3>
             <h3 className={styles.header_h3_another}>Up to ₹{time}</h3>
           </div>
-          {cash && card ? (
+          {payment.cash && payment.card ? (
             <h3 className={styles.header_h3}>Accepts All payment</h3>
-          ) : card ? (
+          ) : payment.card ? (
             <h3 className={styles.header_h3}>Accepts card payment</h3>
           ) : (
             <h3 className={styles.header_h3}>Accepts cash payment</h3>
