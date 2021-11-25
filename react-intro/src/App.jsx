@@ -1,7 +1,11 @@
 // import React, { useEffect } from "react"
 // import axios from "axios"
 
-import UseEffect from "./Component/useEffect/UseEffect"
+import React from "react"
+import Todo from "./Component/useEffect/Todo"
+// import Age from "./Component/useEffect/Age"
+// import CountDown from "./Component/useEffect/CountDown"
+// import UseEffect from "./Component/useEffect/UseEffect"
 
 // import Forms from "./Component/Form/Forms"
 // import Todos from "./Component/todo/Todos"
@@ -55,6 +59,7 @@ function App() {
   //       }
   //     })
   // }, [])
+  // const [show, setShow] = React.useState(true)
   return (
     <div>
       {/* <button onClick={handleRequests}>REQUEST</button> */}
@@ -63,7 +68,32 @@ function App() {
       {/* <Temp /> */}
       {/* <Todos /> */}
       {/* <Forms /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+
+      {/* unmounting */}
+      {/* {show ? (
+        <>
+          <CountDown />
+          <button
+            onClick={() => {
+              setShow(!show)
+            }}
+          >
+            Hide Counter
+          </button>
+        </>
+      ) : (
+        <button
+          onClick={() => {
+            setShow(!show)
+          }}
+        >
+          Show Counter
+        </button>
+      )} */}
+
+      {/* <Age /> */}
+      <Todo />
     </div>
   )
 }

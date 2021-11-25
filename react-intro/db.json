@@ -1,11 +1,34 @@
 {
   "posts": [
     {
-      "name": "swetha",
-      "email": "shwe08711@gmail.com",
-      "number": "07892839931",
-      "password": "1",
+      "title": "Learn React",
+      "status": false,
       "id": 1
+    },
+    {
+      "title": "Learn js",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Learn js",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "a",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "q",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "qw",
+      "status": false,
+      "id": 6
     }
   ]
 }
