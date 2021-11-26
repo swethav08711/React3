@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "Learn",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "Learn DSA",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Learn JS",
+      "status": false,
+      "id": 3
+    }
+  ]
+}

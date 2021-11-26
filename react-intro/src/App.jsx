@@ -2,7 +2,13 @@
 // import axios from "axios"
 
 import React from "react"
-import Todo from "./Component/useEffect/Todo"
+
+// import ReactForm from "./Component/React_forms/ReactForm"
+// import StopWatch from "./Component/Stopwatch/StopWatch"
+import Form from "./Component/ValidationForm/Form"
+//import StartResetCounter from "./Component/StartResetCounter/StartResetCounter"
+//import PaginationTodo from "./Component/TodoAssignment/PaginationTodo"
+// import Todo from "./Component/useEffect/Todo"
 // import Age from "./Component/useEffect/Age"
 // import CountDown from "./Component/useEffect/CountDown"
 // import UseEffect from "./Component/useEffect/UseEffect"
@@ -10,7 +16,7 @@ import Todo from "./Component/useEffect/Todo"
 // import Forms from "./Component/Form/Forms"
 // import Todos from "./Component/todo/Todos"
 
-// import StateManagement from "./Component/class2/StateManagement"
+//import StateManagement from "./Component/class2/StateManagement"
 // import Todo from "./Component/class2/Todo"
 // import Temp from "./Component/temp/Temp"
 
@@ -34,7 +40,7 @@ import Todo from "./Component/useEffect/Todo"
 // )
 function App() {
   // const handleRequests = async () => {
-  //   //?_sort=title&_page=1&_limit=1
+  //   ?_sort=title&_page=1&_limit=1
   //   const res1 = baseReq.get("/2", {
   //     params: {
   //       _page: "2",
@@ -93,7 +99,12 @@ function App() {
       )} */}
 
       {/* <Age /> */}
-      <Todo />
+      {/* <Todo /> */}
+      {/* <StartResetCounter /> */}
+      {/* <PaginationTodo /> */}
+      {/* <StopWatch /> */}
+      {/* <ReactForm /> */}
+      <Form />
     </div>
   )
 }
