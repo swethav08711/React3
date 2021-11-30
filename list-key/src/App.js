@@ -5,8 +5,9 @@ import styles from "./Component/RestorentDetail/Restaurent.module.css"
 import RestorentInput from "./Component/RestorentDetail/RestorentInput"
 import PaymentOption from "./Component/RestorentDetail/PaymentFile"
 //import Form from "./Component/Composition/Form"
-import MainForm from "./Component/Composition/MainForm"
+//import MainForm from "./Component/Composition/MainForm"
 import StyledComponents from "./Component/StyledComponents/StyledComponents"
+import TodoAxios from "./Component/Axios_Todo/TodoAxios"
 // import StarRating from "./Component/RestorentDetail/resData"
 function App() {
   const [data, setData] = React.useState([])
@@ -90,6 +91,7 @@ function App() {
       </div>
       {/* <MainForm /> */}
       <StyledComponents />
+      <TodoAxios />
     </>
   )
 }
