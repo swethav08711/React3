@@ -15,5 +15,28 @@
       "status": false,
       "id": 3
     }
+  ],
+  "Todo": [
+    {
+      "name": "",
+      "isMarried": "",
+      "gender": "",
+      "email": "",
+      "id": 1
+    },
+    {
+      "name": "",
+      "isMarried": "",
+      "gender": "",
+      "email": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "isMarried": "",
+      "gender": "",
+      "email": "",
+      "id": 3
+    }
   ]
 }

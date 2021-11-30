@@ -2,10 +2,14 @@
 // import axios from "axios"
 
 import React from "react"
+import UserForm from "./Component/ActualForm/UserForm"
+// import EventHandling from "./Component/EventHandling/EventHandling"
+// import ConditonRendering from "./Component/RenderingOnCondition/ConditonRendering"
+// import StartPause from "./Component/StartPause/StartPause"
 
 // import ReactForm from "./Component/React_forms/ReactForm"
 // import StopWatch from "./Component/Stopwatch/StopWatch"
-import Form from "./Component/ValidationForm/Form"
+// import Form from "./Component/ValidationForm/Form"
 //import StartResetCounter from "./Component/StartResetCounter/StartResetCounter"
 //import PaginationTodo from "./Component/TodoAssignment/PaginationTodo"
 // import Todo from "./Component/useEffect/Todo"
@@ -104,7 +108,11 @@ function App() {
       {/* <PaginationTodo /> */}
       {/* <StopWatch /> */}
       {/* <ReactForm /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <EventHandling/> */}
+      {/* <ConditonRendering /> */}
+      {/* <StartPause /> */}
+      <UserForm />
     </div>
   )
 }
