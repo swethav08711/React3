@@ -8,6 +8,7 @@ import PaymentOption from "./Component/RestorentDetail/PaymentFile"
 //import MainForm from "./Component/Composition/MainForm"
 import StyledComponents from "./Component/StyledComponents/StyledComponents"
 import TodoAxios from "./Component/Axios_Todo/TodoAxios"
+import Github from "./Component/GitHubApi/Github"
 // import StarRating from "./Component/RestorentDetail/resData"
 function App() {
   const [data, setData] = React.useState([])
@@ -49,6 +50,7 @@ function App() {
   }
   return (
     <>
+      <Github />
       <RestorentInput setTask={setTask} />
       <PaymentOption
         sortingLHOption={sortingLHOption}
