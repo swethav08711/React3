@@ -4,7 +4,7 @@ import Reusingchildcomponent from "./Component/RestorentDetail/resResuse"
 import styles from "./Component/RestorentDetail/Restaurent.module.css"
 import RestorentInput from "./Component/RestorentDetail/RestorentInput"
 import PaymentOption from "./Component/RestorentDetail/PaymentFile"
-import StarRating from "./Component/RestorentDetail/resData"
+// import StarRating from "./Component/RestorentDetail/resData"
 function App() {
   const [data, setData] = React.useState([])
 
@@ -13,9 +13,11 @@ function App() {
   }, [])
 
   const setTask = () => {
-    axios.get("http://localhost:3002/data").then(({ data }) => {
-      setData(data)
-    })
+    axios
+      .get("http://localhost:3002/data?_sort=star&_order=asc")
+      .then(({ data }) => {
+        setData(data)
+      })
   }
   const sortingLHOption = () => {
     axios
@@ -31,8 +33,15 @@ function App() {
         setData(data)
       })
   }
-  const filterhandle = () => {
-    console.log(setTask())
+  const filterhandler = value => {
+    axios
+      .get("http://localhost:3002/data?_sort=star&_order=asc")
+      .then(({ data }) => {
+        return data.star >= value
+      })
+      .then(({ data }) => {
+        setData(data)
+      })
   }
   return (
     <>
@@ -41,7 +50,36 @@ function App() {
         sortingLHOption={sortingLHOption}
         sortingHLOption={sortingHLOption}
       />
-      <StarRating filterhandle={filterhandle} />
+      <div>
+        <button
+          onClick={() => {
+            filterhandler(1)
+          }}
+        >
+          1 Star
+        </button>
+        <button
+          onClick={() => {
+            filterhandler(2)
+          }}
+        >
+          1 Star
+        </button>
+        <button
+          onClick={() => {
+            filterhandler(3)
+          }}
+        >
+          1 Star
+        </button>
+        <button
+          onClick={() => {
+            filterhandler(4)
+          }}
+        >
+          1 Star
+        </button>
+      </div>
       <div className={styles.main_cont}>
         {data.map(items => (
           <Reusingchildcomponent data={items} key={items.id} />
