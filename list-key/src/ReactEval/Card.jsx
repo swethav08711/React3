@@ -6,7 +6,7 @@ import IconButton from "@mui/material/IconButton"
 import Typography from "@mui/material/Typography"
 import Button from "@mui/material/Button"
 import DeleteIcon from "@mui/icons-material/Delete"
-
+import EditIcon from "@mui/icons-material/Edit"
 export default function RecipeReviewCard({ data, handleDelete }) {
   return (
     <>
@@ -30,7 +30,7 @@ export default function RecipeReviewCard({ data, handleDelete }) {
                 }}
               />
             </IconButton>
-            <Button variant="contained">Edit</Button>
+            <EditIcon />
           </CardActions>
         </Card>
       ))}

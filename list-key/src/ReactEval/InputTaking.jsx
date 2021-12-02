@@ -3,8 +3,11 @@ import Button from "@mui/material/Button"
 import TextField from "@mui/material/TextField"
 import axios from "axios"
 import RecipeReviewCard from "./Card"
-import Pagination from "@mui/material/Pagination"
-import Stack from "@mui/material/Stack"
+
+import Pagination1 from "./Pagination"
+// import { Pagination } from "@mui/material"
+// import Pagination from "@mui/material/Pagination"
+// import Stack from "@mui/material/Stack"
 const initdata = {
   title: "",
   description: "",
@@ -12,6 +15,8 @@ const initdata = {
 export default function InputTaking() {
   const [titled, setTitle] = React.useState(initdata)
   const [data, setData] = React.useState([])
+  const [currentpage, setCurrentpage] = React.useState(1)
+  const [postParpage, setPostsPerpage] = React.useState(2)
   const { title, description } = titled
 
   React.useEffect(() => {
@@ -32,6 +37,10 @@ export default function InputTaking() {
       setTask()
     })
   }
+  const indexOfLastPost = currentpage * postParpage
+  const indexOfFirstPage = indexOfLastPost - postParpage
+  const currentPost = data.slice(indexOfFirstPage, indexOfLastPost)
+  const paginate = pageNumber => setCurrentpage(pageNumber)
   return (
     <div style={{ marginLeft: "40%" }}>
       <div style={{ marginTop: "10px" }}>
@@ -69,10 +78,16 @@ export default function InputTaking() {
         >
           Submit
         </Button>
-        <RecipeReviewCard data={data} handleDelete={handleDelete} />
-        <Stack spacing={2} sx={{ marginTop: "50px" }}>
+        <RecipeReviewCard data={currentPost} handleDelete={handleDelete} />
+        <Pagination1
+          postParpage={postParpage}
+          totalPosts={data.length}
+          paginate={paginate}
+        />
+
+        {/* <Stack spacing={2} sx={{ marginTop: "50px" }}>
           <Pagination count={10} color="primary" />
-        </Stack>
+        </Stack> */}
       </div>
     </div>
   )

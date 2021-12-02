@@ -1,5 +1,6 @@
 import React from "react"
-import InputTaking from "./ReactEval/InputTaking"
+import SideBar from "./Component/StyledComponents/SideBar"
+// import InputTaking from "./ReactEval/InputTaking"
 
 // import axios from "axios"
 // import Reusingchildcomponent from "./Component/RestorentDetail/resResuse"
@@ -104,7 +105,8 @@ function App() {
       <SecondStyled />
       <MaterialUI /> */}
 
-      <InputTaking />
+      {/* <InputTaking /> */}
+      <SideBar />
     </div>
   )
 }
