@@ -1,5 +1,6 @@
 import React from "react"
 import NavBar from "./Component/StyledComponents/NavBar"
+import QueryNavBar from "./Component/StyledComponents/QueryNavBar"
 import SideBar from "./Component/StyledComponents/SideBar"
 // import InputTaking from "./ReactEval/InputTaking"
 
@@ -107,8 +108,9 @@ function App() {
       <MaterialUI /> */}
 
       {/* <InputTaking /> */}
-      <SideBar />
-      <NavBar />
+      <QueryNavBar />
+      {/* <SideBar />
+      <NavBar /> */}
     </div>
   )
 }
