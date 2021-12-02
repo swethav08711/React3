@@ -1,4 +1,5 @@
 import React from "react"
+import NavBar from "./Component/StyledComponents/NavBar"
 import SideBar from "./Component/StyledComponents/SideBar"
 // import InputTaking from "./ReactEval/InputTaking"
 
@@ -107,6 +108,7 @@ function App() {
 
       {/* <InputTaking /> */}
       <SideBar />
+      <NavBar />
     </div>
   )
 }
