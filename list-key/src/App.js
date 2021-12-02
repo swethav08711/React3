@@ -1,4 +1,5 @@
 import React from "react"
+import SelectTextFields from "./Component/StyledComponents/CreditCard"
 import NavBar from "./Component/StyledComponents/NavBar"
 import QueryNavBar from "./Component/StyledComponents/QueryNavBar"
 import SideBar from "./Component/StyledComponents/SideBar"
@@ -108,7 +109,8 @@ function App() {
       <MaterialUI /> */}
 
       {/* <InputTaking /> */}
-      <QueryNavBar />
+      {/* <QueryNavBar /> */}
+      <SelectTextFields />
       {/* <SideBar />
       <NavBar /> */}
     </div>
