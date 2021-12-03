@@ -2,11 +2,17 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 import App from "./App"
+import ApplicationContextProvider from "./ContextAPI/ApplicationContextProvider"
+import ThemeProvde from "./ContextAPI/ThemeProvde"
 import reportWebVitals from "./reportWebVitals"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvde>
+      <ApplicationContextProvider>
+        <App />
+      </ApplicationContextProvider>
+    </ThemeProvde>
   </React.StrictMode>,
   document.getElementById("root")
 )

@@ -1,8 +1,11 @@
 import React from "react"
-import SelectTextFields from "./Component/StyledComponents/CreditCard"
-import NavBar from "./Component/StyledComponents/NavBar"
-import QueryNavBar from "./Component/StyledComponents/QueryNavBar"
-import SideBar from "./Component/StyledComponents/SideBar"
+import Body from "./ContextBody/Body"
+import Header from "./ContextBody/Header"
+// import SelectTextFields from "./Component/StyledComponents/CreditCard"
+// import NavBar from "./Component/StyledComponents/NavBar"
+// import QueryNavBar from "./Component/StyledComponents/QueryNavBar"
+// import SideBar from "./Component/StyledComponents/SideBar"
+
 // import InputTaking from "./ReactEval/InputTaking"
 
 // import axios from "axios"
@@ -110,9 +113,11 @@ function App() {
 
       {/* <InputTaking /> */}
       {/* <QueryNavBar /> */}
-      <SelectTextFields />
+      {/* <SelectTextFields /> */}
       {/* <SideBar />
       <NavBar /> */}
+      <Header />
+      <Body />
     </div>
   )
 }
