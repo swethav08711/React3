@@ -2,12 +2,15 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 import App from "./App"
+import AuthContexting from "./Component/ContextApi/Context/AuthContext"
 import reportWebVitals from "./reportWebVitals"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <AuthContexting>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </AuthContexting>,
   document.getElementById("root")
 )
 

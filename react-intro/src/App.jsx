@@ -2,7 +2,10 @@
 // import axios from "axios"
 
 import React from "react"
-import UserForm from "./Component/ActualForm/UserForm"
+
+import Counter from "./Component/ContextApi/Component/Conter"
+import DoubleCounter from "./Component/ContextApi/Component/DoubleCounter"
+// import UserForm from "./Component/ActualForm/UserForm"
 // import EventHandling from "./Component/EventHandling/EventHandling"
 // import ConditonRendering from "./Component/RenderingOnCondition/ConditonRendering"
 // import StartPause from "./Component/StartPause/StartPause"
@@ -112,7 +115,9 @@ function App() {
       {/* <EventHandling/> */}
       {/* <ConditonRendering /> */}
       {/* <StartPause /> */}
-      <UserForm />
+      {/* <UserForm /> */}
+      <Counter />
+      <DoubleCounter />
     </div>
   )
 }
