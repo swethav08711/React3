@@ -2,9 +2,9 @@ import React from "react"
 import Body from "./ContextBody/Body"
 import Header from "./ContextBody/Header"
 // import SelectTextFields from "./Component/StyledComponents/CreditCard"
-// import NavBar from "./Component/StyledComponents/NavBar"
+import NavBar from "./Component/StyledComponents/NavBar"
 // import QueryNavBar from "./Component/StyledComponents/QueryNavBar"
-// import SideBar from "./Component/StyledComponents/SideBar"
+import SideBar from "./Component/StyledComponents/SideBar"
 
 // import InputTaking from "./ReactEval/InputTaking"
 
@@ -114,8 +114,8 @@ function App() {
       {/* <InputTaking /> */}
       {/* <QueryNavBar /> */}
       {/* <SelectTextFields /> */}
-      {/* <SideBar />
-      <NavBar /> */}
+      <SideBar />
+      <NavBar />
       <Header />
       <Body />
     </div>
